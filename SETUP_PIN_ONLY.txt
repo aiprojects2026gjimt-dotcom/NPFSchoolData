@@ -1,0 +1,10 @@
+GJIMT PIN-ONLY STAFF LOGIN — SETUP
+
+1. Open config.js in VS Code.
+2. Replace PASTE_YOUR_APPS_SCRIPT_WEB_APP_EXEC_URL_HERE with your existing Google Apps Script Web App URL ending in /exec.
+3. Save config.js. Upload ALL frontend files to GitHub Pages (including config.js).
+4. Open the GitHub Pages site. Click Staff Login and enter your staff PIN.
+5. The PIN is checked by the existing Apps Script backend. On success, Google Sheet records load and the dashboard opens.
+6. Staff will no longer enter the URL; it is configured once in config.js.
+
+IMPORTANT: config.js is public on GitHub. Do not put the PIN, Google Sheet ID, credentials, or secrets in it. Your original Code.gs can remain unchanged. Shared PIN authentication and PIN sent in JSONP query strings are NOT adequate for protecting actual student data on a public website. For production, switch to individual authenticated accounts and enforce authorization on every backend request.
