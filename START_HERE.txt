@@ -1,8 +1,0 @@
-GJIMT Student Data Center V2
-1) Apps Script: replace Code.gs, keep Script Properties, enable Drive API v3, deploy New version.
-2) Local: open index.html using VS Code Live Server; or upload index.html, style.css, app.js, assets to GitHub Pages.
-3) Connection: set /exec URL and PIN, click Test & Load Records.
-4) Upload: choose existing school or Add School; choose 1+ images/PDF; Upload & Extract.
-5) Verify: review ALL OCR-filled fields and manually fill checkbox selections; Verify & Save.
-6) Student Records: select school, class, date range, stream and search; see student profile cards.
-Note: OCR is best-effort, not reliable 100% handwritten-form auto-fill. Use dummy data until secure authentication is added.
